@@ -1,4 +1,4 @@
-# Gesture Detection
+# Real-Time Gesture Detection using Webcam
 
 An experimental hand gesture recognition system using [MediaPipe](https://mediapipe.dev/) and an LSTM neural network.  
 It can detect a few predefined gestures from a webcam feed in real time and trigger actions (e.g., scrolling, moving the mouse, printing messages).
@@ -24,4 +24,5 @@ Install dependencies (inside a virtual environment):
 
 ```bash
 pip install tensorflow opencv-python mediapipe scikit-learn pyautogui
+
 
